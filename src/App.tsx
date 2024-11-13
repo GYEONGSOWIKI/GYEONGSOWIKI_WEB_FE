@@ -14,6 +14,7 @@ function App() {
           <Route path="/club" element={<R.Club />} />
           <Route path="/student" element={<R.Student />} />
           <Route path="/teacher" element={<R.Teacher />} />
+          <Route path="/mypage" element={<R.MyPage />} />
           <Route path="/login" element={<R.SignIn />} />
         </Routes>
         <R.Footer />

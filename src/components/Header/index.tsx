@@ -12,7 +12,7 @@ import Logo from "../../assets/logo.png"
 
 
 const Header = () => {
-    const [isSignIn, setIsSignIn] = useState(false)
+    const [isSignIn, setIsSignIn] = useState(true)
 
     return (
         <S.TopCont>
@@ -42,7 +42,7 @@ const Header = () => {
                     {isSignIn ? (
                         <S.SignInWrap>
                             <Link to={""}><span className="makeDoc">문서 생성</span></Link>
-                            <Link to={""}>
+                            <Link to={"/mypage"}>
                                 <div className="detail">
                                     <IoPerson />
                                     <span>내정보</span>

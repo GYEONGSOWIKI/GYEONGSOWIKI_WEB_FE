@@ -11,6 +11,7 @@ import Club from "./pages/Main/Club";
 import Home from "./pages/Main/Home";
 import Student from "./pages/Main/Student";
 import Teacher from "./pages/Main/Teacher";
+import MyPage from "./pages/User/MyPage";
 import SignIn from "./pages/User/SignIn";
 
 export {
@@ -27,5 +28,6 @@ export {
   Home,
   Student,
   Teacher,
+  MyPage,
   SignIn,
 };
