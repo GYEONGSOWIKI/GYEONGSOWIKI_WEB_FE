@@ -6,7 +6,11 @@ import Classify from "./components/Item/Classify";
 import Symbol from "./components/Item/Symbol";
 import Table from "./components/Item/Table";
 import Toggle from "./components/Item/Toggle";
+import Accident from "./pages/Main/Accident";
+import Club from "./pages/Main/Club";
 import Home from "./pages/Main/Home";
+import Student from "./pages/Main/Student";
+import Teacher from "./pages/Main/Teacher";
 import SignIn from "./pages/User/SignIn";
 
 export {
@@ -18,6 +22,10 @@ export {
   Symbol,
   Table,
   Toggle,
+  Accident,
+  Club,
   Home,
+  Student,
+  Teacher,
   SignIn,
 };

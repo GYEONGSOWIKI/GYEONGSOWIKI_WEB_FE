@@ -23,10 +23,10 @@ const Header = () => {
                             <img src={Logo} alt="logo-white" className="logo" />
                         </Link>
                         <S.NavWrap>
-                            <MenuItem to={""} icon={<IoPerson />} children={"학생"} />
-                            <MenuItem to={""} icon={<FaChalkboardTeacher />} children={"선생님"} />
-                            <MenuItem to={""} icon={<BiSolidTrafficCone />} children={"사건/사고"} />
-                            <MenuItem to={""} icon={<MdPeopleAlt />} children={"동아리"} />
+                            <MenuItem to={"/student"} icon={<IoPerson />} children={"학생"} />
+                            <MenuItem to={"/teacher"} icon={<FaChalkboardTeacher />} children={"선생님"} />
+                            <MenuItem to={"/accident"} icon={<BiSolidTrafficCone />} children={"사건/사고"} />
+                            <MenuItem to={"/club"} icon={<MdPeopleAlt />} children={"동아리"} />
                         </S.NavWrap>
                     </S.NavCont>
                     <S.SearchCont>
