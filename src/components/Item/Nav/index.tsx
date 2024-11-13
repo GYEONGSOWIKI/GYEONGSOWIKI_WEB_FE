@@ -12,14 +12,12 @@ interface MenuItemProps {
 
 const MenuItem: React.FC<MenuItemProps> = ({ to, icon, children }) => {
     return (
-        <>
-            <Link to={to}>
-                <S.ItemWrap>
-                    {icon}
-                    <span>{children}</span>
-                </S.ItemWrap>
-            </Link>
-        </>
+        <Link to={to}>
+            <S.ItemWrap>
+                {icon}
+                <span>{children}</span>
+            </S.ItemWrap>
+        </Link>
     )
 }
 export default MenuItem
