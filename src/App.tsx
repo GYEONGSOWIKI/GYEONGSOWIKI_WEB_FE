@@ -7,10 +7,12 @@ function App() {
   return (
     <>
       <Router>
+        <R.Header />
         <Routes>
           <Route path="/" element={<R.Home />} />
           <Route path="/login" element={<R.SignIn />} />
         </Routes>
+        <R.Footer />
       </Router>
     </>
   )

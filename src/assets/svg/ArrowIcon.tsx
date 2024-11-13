@@ -17,7 +17,7 @@ const ArrowIcon = ({ direction, className, width = 55, height = 55 }: ArrowIconP
             width={width}
             height={height}
             viewBox="0 0 55 55"
-            fill="currentColor" // 기본 색상을 적용합니다.
+            fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
             className={className}
         >

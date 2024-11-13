@@ -8,7 +8,6 @@ import Logo from "@assets/logo-dark.png"
 const Home = () => {
     return (
         <>
-            <C.Header />
             <S.TopCont>
                 <S.ContentArea>
                     <S.MainWrap>
