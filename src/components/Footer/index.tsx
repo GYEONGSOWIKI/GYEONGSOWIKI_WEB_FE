@@ -1,25 +1,17 @@
 import * as S from "./style"
 
-import SymbolOld from "@assets/symbol-only.png"
-import SymbolNew from "@assets/symbol-new-only.png"
+import Logo from "@assets/logo-dark.png"
 
 const Footer = () => {
     return (
         <S.FooterWrap>
-            <a href="https://school.gyo6.net/gbsw/main.do?sysId=gbsw" target="blank">
-                <img
-                    src={SymbolOld}
-                    alt="Symbol-old"
-                />
-                <img
-                    src={SymbolNew}
-                    alt="Symbol-new"
-                />
+            <a href="https://github.com/GYEONGSOWIKI" target="blank">
+                <img src={Logo} alt="경소위키 로고" />
             </a>
-            <p>경상북도 의성군 봉양면 봉호로 14 Tel : 교무실 : 054-832-2903 행정실 : 054-832-2900   |  Fax : 행정실 : 054-833-2877
-                <br />
-                Copyright(c) 경북소프트웨어고등학교. All rights reserved.
-            </p>
+            <S.InfoWrap>
+                <p>김승환, 박성민, 변예현, 손보석, 성홍제, 유진승</p>
+                <p>14 Bongho-ro, Bongyang-myeon, Uiseong-gun, Gyeongsangbuk-do</p>
+            </S.InfoWrap>
         </S.FooterWrap>
     )
 }

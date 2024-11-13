@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const FooterWrap = styled.footer`
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  text-align: center;
+  padding: 30px;
   width: 100%;
   height: 22vh;
   background-color: #fff;
@@ -13,15 +13,22 @@ export const FooterWrap = styled.footer`
 
   & > a {
     display: flex;
-    gap: 10px;
+    align-items: center;
+    color: gray;
   }
 
   & > a > img {
-    width: 50px;
-    height: 50px;
+    width: 130px;
+    height: 44px;
+    aspect-ratio: auto;
   }
+`;
+
+export const InfoWrap = styled.div`
+  padding: 0 0 0 10px;
 
   & > p {
-    margin-top: 20px;
+    margin-top: 10px;
+    line-height: 1;
   }
 `;
