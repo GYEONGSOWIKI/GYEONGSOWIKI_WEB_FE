@@ -18,8 +18,10 @@
     "baseUrl": ".",
     "paths": {
       "@src/*": ["src/*"],
+      "@api/*": ["src/api/*"],
       "@hooks/*": ["src/hooks/*"],
-      "@assets/*": ["src/assets/*"]
+      "@assets/*": ["src/assets/*"],
+      "@constant/*": ["src/constant/*"]
     }
   },
   "include": ["src"]
