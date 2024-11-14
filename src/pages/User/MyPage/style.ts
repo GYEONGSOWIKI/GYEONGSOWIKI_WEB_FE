@@ -51,3 +51,15 @@ export const MyPageDescWrap = styled.main`
   justify-content: unset;
   align-items: unset;
 `;
+
+export const MyInfoWrap = styled.div`
+  & > button {
+    padding: 7px 12px;
+    background-color: #00aa87;
+    color: #fff;
+    border: 1px solid #00aa87;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+`;
