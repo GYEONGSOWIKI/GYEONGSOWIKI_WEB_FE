@@ -7,6 +7,7 @@ import Symbol from "./components/Item/Symbol";
 import Table from "./components/Item/Table";
 import Toggle from "./components/Item/Toggle";
 import Accident from "./pages/Main/Accident";
+import Category from "./pages/Main/Category";
 import Club from "./pages/Main/Club";
 import Home from "./pages/Main/Home";
 import Student from "./pages/Main/Student";
@@ -24,6 +25,7 @@ export {
   Table,
   Toggle,
   Accident,
+  Category,
   Club,
   Home,
   Student,

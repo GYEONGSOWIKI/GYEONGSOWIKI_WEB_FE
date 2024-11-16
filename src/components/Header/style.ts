@@ -35,7 +35,7 @@ export const NavCont = styled.nav`
 
 export const NavWrap = styled.div`
   display: flex;
-  gap: 28px;
+  gap: 48px;
 `;
 
 export const SearchCont = styled.div`

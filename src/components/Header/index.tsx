@@ -6,13 +6,13 @@ import MenuItem from "../Item/Nav"
 
 import { IoPerson, IoSearchSharp } from "react-icons/io5";
 import { FaChalkboardTeacher } from "react-icons/fa";
-import { BiSolidTrafficCone } from "react-icons/bi";
+import { BiSolidTrafficCone, BiSolidCategory } from "react-icons/bi";
 import { MdPeopleAlt } from "react-icons/md";
 import Logo from "../../assets/logo.png"
 
 
 const Header = () => {
-    const [isSignIn, setIsSignIn] = useState(true)
+    const [isSignIn, setIsSignIn] = useState(false)
 
     return (
         <S.TopCont>
@@ -26,6 +26,7 @@ const Header = () => {
                         <MenuItem to={"/teacher"} icon={<FaChalkboardTeacher />} children={"선생님"} />
                         <MenuItem to={"/accident"} icon={<BiSolidTrafficCone />} children={"사건/사고"} />
                         <MenuItem to={"/club"} icon={<MdPeopleAlt />} children={"동아리"} />
+                        <MenuItem to={"/category"} icon={<BiSolidCategory />} children={"틀"} />
                     </S.NavWrap>
                 </S.NavCont>
                 <S.SearchCont>
