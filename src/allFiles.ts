@@ -1,5 +1,6 @@
-import Header from "./components/Header";
+import Aside from "./components/Aside";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 import InputField from "./components/InputField";
 import BoardTitle from "./components/Item/BoardTitle";
 import Classify from "./components/Item/Classify";
@@ -16,6 +17,7 @@ import MyPage from "./pages/User/MyPage";
 import SignIn from "./pages/User/SignIn";
 
 export {
+  Aside,
   Header,
   Footer,
   InputField,

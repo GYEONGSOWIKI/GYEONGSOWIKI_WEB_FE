@@ -12,6 +12,7 @@ const Club = () => {
                     </S.Board>
                 </S.MainWrap>
             </S.ContentArea>
+            <C.Aside />
         </S.TopCont>
     );
 };

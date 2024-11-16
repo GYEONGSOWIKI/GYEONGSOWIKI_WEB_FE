@@ -158,6 +158,7 @@ const Home = () => {
                     </p>
                 </S.HomeFooter>
             </S.ContentArea>
+            <C.Aside />
         </S.TopCont>
     )
 }
