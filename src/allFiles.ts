@@ -15,6 +15,9 @@ import Student from "./pages/Main/Student";
 import Teacher from "./pages/Main/Teacher";
 import MyPage from "./pages/User/MyPage";
 import SignIn from "./pages/User/SignIn";
+import CommonRouter from "./layout/Common";
+import MainLayout from "./layout/Main";
+import SubLayout from "./layout/Sub";
 
 export {
   Aside,
@@ -34,4 +37,7 @@ export {
   Teacher,
   MyPage,
   SignIn,
+  CommonRouter,
+  MainLayout,
+  SubLayout,
 };
