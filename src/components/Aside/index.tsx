@@ -1,6 +1,6 @@
 import * as S from "./style"
 
-import NavigationArrow from "@assets/svg/NavigationArrow"
+import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
 
 const Aside = () => {
     return (
@@ -16,12 +16,12 @@ const Aside = () => {
                 </S.ArticleWrap>
                 <S.FigureInner>
                     <S.FigureBtn>
-                        <NavigationArrow direction={"previous"} />
+                        <FaAngleLeft />
                         이전
                     </S.FigureBtn>
                     <S.FigureBtn>
                         다음
-                        <NavigationArrow direction={"next"} />
+                        <FaAngleRight />
                     </S.FigureBtn>
                 </S.FigureInner>
             </S.MainWrap>
