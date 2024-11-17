@@ -108,7 +108,6 @@ export const FigureBtn = styled.button`
   margin: 6px 0;
   border: 2px solid #ccc;
   color: #00aa87;
-  gap: 3px;
   font-weight: 700;
   font-size: 0.875rem;
   line-height: 130%;
