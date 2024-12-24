@@ -10,6 +10,7 @@ export const InputWrap = styled.div`
   & > input {
     width: 400px;
     padding: 15px 25px;
+    margin: 4px 0;
     font-size: 13px;
     background-color: #f5f5f5;
     color: #9e9ea7;

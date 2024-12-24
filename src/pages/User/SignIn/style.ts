@@ -57,7 +57,7 @@ export const MainWrap = styled.div`
 
 export const TitleWrap = styled.div`
   width: 100%;
-  max-width: 94%;
+  max-width: 99%;
   padding: 0px 40px;
   display: flex;
   flex-direction: column;
@@ -78,7 +78,7 @@ export const SymbolWrap = styled.div`
 
 export const FormWrap = styled.div`
   & > form {
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
