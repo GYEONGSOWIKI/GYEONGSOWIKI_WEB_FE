@@ -18,6 +18,7 @@ export const AccodianMenu = styled.div`
   border-bottom: 1px solid #ccc;
   padding: 10px 0;
   box-sizing: border-box;
+  gap: 5px;
 `;
 
 export const ToggleSvg = styled.div`
@@ -50,7 +51,7 @@ export const SummaryArticle = styled.article`
   }
 `;
 
-export const SummaryArticleContent = styled.p`
+export const SummaryArticleContent = styled.div`
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 140%;

@@ -59,7 +59,8 @@ export const MyInfoWrap = styled.div`
     color: #fff;
     border: 1px solid #00aa87;
     border-radius: 5px;
-    font-weight: 600;
+    font-weight: bold;
+    font-size: 15px;
     cursor: pointer;
   }
 `;
