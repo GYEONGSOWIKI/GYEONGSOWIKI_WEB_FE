@@ -102,14 +102,14 @@ export const SignInWrap = styled.div`
     align-items: center;
     gap: 6px;
     color: #fff;
+
+    &:hover {
+      color: #ccc;
+    }
   }
 
   span {
     font-weight: 600;
-  }
-
-  .detail:hover {
-    color: #ccc;
   }
 
   .makeDoc {
@@ -126,10 +126,10 @@ export const SignInWrap = styled.div`
     transition: all 0.3s ease-in-out;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transform: scale(1);
-  }
 
-  .makeDoc:hover {
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-    transform: scale(1.05);
+    &:hover {
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+      transform: scale(1.05);
+    }
   }
 `;

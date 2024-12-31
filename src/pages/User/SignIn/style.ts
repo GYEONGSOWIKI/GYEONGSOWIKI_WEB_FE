@@ -100,9 +100,9 @@ export const FormWrap = styled.div`
     justify-content: center;
     gap: 10px;
     font-weight: 700;
-  }
 
-  .submitBtn:hover {
-    background-color: #029678;
+    &:hover {
+      background-color: #029678;
+    }
   }
 `;

@@ -164,11 +164,12 @@ export const TableTitleWrap = styled.hgroup`
 export const SummaryWrap = styled.div`
   .articleContent > a {
     color: #00aa87;
+
+    &:hover {
+      border-bottom: 1px solid #00aa87;
+    }
   }
 
-  .articleContent > a:hover {
-    border-bottom: 1px solid #00aa87;
-  }
   .articleContent {
     font-weight: 400;
     font-size: 1.125rem;
@@ -193,10 +194,10 @@ export const SummaryWrap = styled.div`
   .deleteContent {
     text-decoration: line-through;
     color: gray;
-  }
 
-  .deleteContent:hover {
-    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
   }
 `;
 
