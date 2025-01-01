@@ -18,6 +18,7 @@ const CommonRouter = () => {
             <Route element={<R.SubLayout />}>
                 <Route path="/login" element={<R.SignIn />} />
             </Route>
+            <Route path="*" element={<R.NotFound />} />
         </Routes>
     )
 }

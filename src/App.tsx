@@ -1,6 +1,7 @@
 import * as R from "./allFiles";
 
 import { useEffect } from "react";
+import { ToastContainer } from "react-toastify";
 
 const App = () => {
   useEffect(() => {
@@ -9,7 +10,10 @@ const App = () => {
   }, [])
 
   return (
-    <R.CommonRouter />
+    <>
+      <R.CommonRouter />
+      <ToastContainer limit={1} />
+    </>
   );
 };
 
