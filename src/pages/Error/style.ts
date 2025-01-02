@@ -22,9 +22,9 @@ export const MainWrap = styled.div`
 
   & > h1 {
     font-size: 4.3rem;
-  }
 
-  & > h1 > span {
-    color: #ec7302;
+    & > span {
+      color: #ec7302;
+    }
   }
 `;
