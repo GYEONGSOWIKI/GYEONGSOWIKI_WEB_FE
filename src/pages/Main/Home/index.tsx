@@ -7,7 +7,7 @@ import Logo from "@assets/logo-dark.png"
 
 const Home = () => {
     return (
-        <S.TopCont>
+        <>
             <S.ContentArea>
                 <S.MainWrap>
                     <S.Board>
@@ -158,8 +158,7 @@ const Home = () => {
                     </p>
                 </S.HomeFooter>
             </S.ContentArea>
-            <C.Aside />
-        </S.TopCont>
+        </>
     )
 }
 export default Home

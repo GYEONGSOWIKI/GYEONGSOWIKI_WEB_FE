@@ -3,17 +3,14 @@ import * as S from "./style"
 
 const Category = () => {
     return (
-        <S.TopCont>
-            <S.ContentArea>
-                <S.MainWrap>
-                    <S.Board>
-                        <C.BoardTitle title="경소위키" description="틀" />
-                        <C.Classify description="틀" />
-                    </S.Board>
-                </S.MainWrap>
-            </S.ContentArea>
-            <C.Aside />
-        </S.TopCont>
+        <S.CategoryArea>
+            <S.CategoryWrap>
+                <S.CategoryBoard>
+                    <C.BoardTitle title="경소위키" description="틀" />
+                    <C.Classify description="틀" />
+                </S.CategoryBoard>
+            </S.CategoryWrap>
+        </S.CategoryArea>
     )
 }
 export default Category

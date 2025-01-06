@@ -1,17 +1,6 @@
 import styled from "styled-components";
 
-export const TopCont = styled.main`
-  width: 100%;
-  min-height: 100svh;
-  background-color: #f5f5f5;
-  padding-top: 52px;
-  display: flex;
-  flex-direction: unset;
-  justify-content: unset;
-  align-items: unset;
-`;
-
-export const ContentArea = styled.main`
+export const TeacherArea = styled.main`
   width: 73%;
   display: flex;
   flex-direction: column;
@@ -23,7 +12,7 @@ export const ContentArea = styled.main`
   margin: 0 20px 0 40px;
 `;
 
-export const MainWrap = styled.figure`
+export const TeacherWrap = styled.figure`
   width: 100%;
   height: fit-content;
   padding: 30px;
@@ -34,7 +23,7 @@ export const MainWrap = styled.figure`
   align-items: unset;
 `;
 
-export const Board = styled.div`
+export const TeacherBoard = styled.div`
   width: 100%;
   gap: 32px;
   display: flex;
