@@ -12,7 +12,7 @@ import Logo from "../../assets/logo.png"
 
 
 const Header = () => {
-    const [isSignIn, setIsSignIn] = useState(false)
+    const [isSignIn, setIsSignIn] = useState(true)
 
     return (
         <S.TopCont>
