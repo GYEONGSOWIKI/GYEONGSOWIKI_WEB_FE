@@ -12,9 +12,13 @@
 
 html,
 body {
-    font-family: 'Pretendard';
+    margin: 0;
+    font-family: "Pretendard";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 a {
     text-decoration: none;
+    color: #000;
 }
