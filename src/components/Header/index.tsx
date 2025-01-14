@@ -2,17 +2,24 @@ import * as S from "./style"
 
 import { useState } from "react";
 import { Link } from "react-router-dom"
-import MenuItem from "../Item/Nav"
 
 import { IoPerson, IoSearchSharp } from "react-icons/io5";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { BiSolidTrafficCone, BiSolidCategory } from "react-icons/bi";
 import { MdPeopleAlt } from "react-icons/md";
-import Logo from "../../assets/logo.png"
+import { Logo } from "@assets/index"
 
 
 const Header = () => {
     const [isSignIn, setIsSignIn] = useState(true)
+
+    const navigationList = [
+        { item: "학생", href: "/student", icon: <IoPerson /> },
+        { item: "선생님", href: "/teacher", icon: <FaChalkboardTeacher /> },
+        { item: "사건/사고", href: "/accident", icon: <BiSolidTrafficCone /> },
+        { item: "동아리", href: "/club", icon: <MdPeopleAlt /> },
+        { item: "틀", href: "/category", icon: <BiSolidCategory /> },
+    ]
 
     return (
         <S.TopCont>
@@ -22,11 +29,14 @@ const Header = () => {
                         <img src={Logo} alt="logo-white" className="logo" />
                     </Link>
                     <S.NavWrap>
-                        <MenuItem to={"/student"} icon={<IoPerson />} children={"학생"} />
-                        <MenuItem to={"/teacher"} icon={<FaChalkboardTeacher />} children={"선생님"} />
-                        <MenuItem to={"/accident"} icon={<BiSolidTrafficCone />} children={"사건/사고"} />
-                        <MenuItem to={"/club"} icon={<MdPeopleAlt />} children={"동아리"} />
-                        <MenuItem to={"/category"} icon={<BiSolidCategory />} children={"틀"} />
+                        {navigationList.map((nav) => (
+                            <Link key={nav.item} to={nav.href}>
+                                <S.ItemWrap>
+                                    {nav.icon}
+                                    <span>{nav.item}</span>
+                                </S.ItemWrap>
+                            </Link>
+                        ))}
                     </S.NavWrap>
                 </S.NavCont>
                 <S.SearchCont>

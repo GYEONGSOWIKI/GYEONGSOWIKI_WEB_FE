@@ -1,7 +1,6 @@
 import * as S from "./style"
 
-import SymbolOld from "@assets/symbol-only.png"
-import SymbolNew from "@assets/symbol-new-only.png"
+import { NewSymbol, OldSymbol } from "@assets/index"
 
 const Symbol = () => {
     return (
@@ -14,12 +13,12 @@ const Symbol = () => {
             >
                 <img
                     draggable={false}
-                    src={SymbolOld}
+                    src={OldSymbol}
                     alt="Symbol-old"
                 />
                 <img
                     draggable={false}
-                    src={SymbolNew}
+                    src={NewSymbol}
                     alt="Symbol-new"
                 />
             </S.MotionWrap>

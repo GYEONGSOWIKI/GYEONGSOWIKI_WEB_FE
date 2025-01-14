@@ -1,10 +1,10 @@
 import * as S from "./style"
 
+import { NotFoundLogo } from "@assets/index"
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Slide, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import ErrorCharacter from "@assets/404.png"
 
 const NotFound = () => {
     const navigate = useNavigate();
@@ -30,7 +30,7 @@ const NotFound = () => {
     return (
         <S.TopCont>
             <S.MainWrap>
-                <img src={ErrorCharacter} alt="404 에러 캐릭터" />
+                <img src={NotFoundLogo} alt="404 에러 캐릭터" />
                 <h1>4<span>0</span>4</h1>
                 <h2>이 페이지는 없는 페이지입니다.</h2>
             </S.MainWrap>

@@ -2,8 +2,7 @@ import * as C from "@src/allFiles"
 import * as S from "./style"
 
 import schoolInfoRows from "@src/constant/schoolInfoRows"
-import SchoolImg from "@assets/SchoolImage.png"
-import Logo from "@assets/logo-dark.png"
+import { SchoolImg, Logo } from "@assets/index"
 
 const Home = () => {
     return (

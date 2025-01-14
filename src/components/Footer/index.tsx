@@ -1,6 +1,6 @@
 import * as S from "./style"
 
-import Logo from "@assets/logo-dark.png"
+import Logo from "@assets/png/logo_dark.png"
 
 const Footer = () => {
     return (
