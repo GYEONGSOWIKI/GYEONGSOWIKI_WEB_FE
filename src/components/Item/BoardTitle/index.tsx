@@ -1,11 +1,11 @@
 import * as S from "./style"
 
-interface BoardTitleProps {
+interface BoardPropsType {
     title: string;
     description: string;
 }
 
-const BoardTitle = ({ title, description }: BoardTitleProps) => {
+const BoardTitle: React.FC<BoardPropsType> = ({ title, description }) => {
     return (
         <S.TitleWrap>
             <div>

@@ -4,12 +4,12 @@ import React, { ReactNode, useState } from "react";
 
 import ArrowIcon from "@assets/svg/ArrowIcon";
 
-interface ToggleProps {
+interface TogglePropsTpye {
     title: string;
     children: ReactNode;
 }
 
-const Toggle: React.FC<ToggleProps> = ({ title, children }) => {
+const Toggle: React.FC<TogglePropsTpye> = ({ title, children }) => {
     const [isOpen, setIsOpen] = useState(true);
 
     const handleToggle = () => {

@@ -1,11 +1,11 @@
 import * as S from "./style"
 
-interface TableProps {
+interface TablePropsType {
     title: string;
     content: string;
 }
 
-const Table = ({ title, content }: TableProps) => {
+const Table: React.FC<TablePropsType> = ({ title, content }) => {
     return (
         <S.TableWrap>
             <S.TableTitle>{title}</S.TableTitle>

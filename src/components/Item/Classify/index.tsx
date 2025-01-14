@@ -1,10 +1,10 @@
 import * as S from "./style"
 
-interface ClassifyProps {
+interface ClassifyPropsType {
     description: string;
 }
 
-const Classify = ({ description }: ClassifyProps) => {
+const Classify: React.FC<ClassifyPropsType> = ({ description }) => {
     return (
         <S.ClassifyWrap>
             분류: <span>{description}</span>
