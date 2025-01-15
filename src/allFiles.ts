@@ -1,8 +1,8 @@
 import Accident from "./pages/Main/Accident";
 import Aside from "./components/Aside";
-import BoardTitle from "./components/Item/BoardTitle";
+import BoardTitle from "./components/BoardTitle";
 import Category from "./pages/Main/Category";
-import Classify from "./components/Item/Classify";
+import Classify from "./components/Classify";
 import Club from "./pages/Main/Club";
 import CommonRouter from "./layout/Common";
 import Footer from "./components/Footer";
@@ -15,10 +15,10 @@ import NotFound from "./pages/Error";
 import SignIn from "./pages/User/SignIn";
 import Student from "./pages/Main/Student";
 import SubLayout from "./layout/Sub";
-import Symbol from "./components/Item/Symbol";
-import Table from "./components/Item/Table";
+import Symbol from "./components/Symbol";
+import Table from "./components/Table";
 import Teacher from "./pages/Main/Teacher";
-import Toggle from "./components/Item/Toggle";
+import Toggle from "./components/Toggle";
 
 export {
   Accident,

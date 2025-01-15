@@ -2,12 +2,12 @@ import * as S from "./style"
 
 import React from "react";
 
-interface InputFieldProps {
+interface InputPropsType {
     label: string;
     type: string;
     placeholder: string;
 }
-const InputField: React.FC<InputFieldProps> = ({ label, type, placeholder }) => {
+const InputField: React.FC<InputPropsType> = ({ label, type, placeholder }) => {
     return (
         <S.InputWrap>
             <label>{label}</label>
